@@ -22,7 +22,7 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: name-of-artifact
+        name: pynotes-Windows
         path: ./dist/windows
     - name: Package Application
       uses: JackMcKew/pyinstaller-action-linux@main
@@ -31,5 +31,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: name-of-artifact
+        name: pynotes-Linux
         path: ./dist/linux
